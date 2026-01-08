@@ -63,7 +63,7 @@ const Review = () => {
 
   return (
     <>
-      <div className="review">
+      <div className="review fade-up">
         <div className="container">
           <div className="review__wrapper">
             <div className="review__content">
@@ -73,7 +73,7 @@ const Review = () => {
 
             <div className="review__cards">
               {reviews.map((r, i) => (
-                <div className="review__card" key={i}>
+                <div className="review__card fade-up" key={i}>
                   <div className="review__card-img">
                     <img src={r.img} alt={r.name} />
                     <div className="review__card-flex">

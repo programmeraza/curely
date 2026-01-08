@@ -22,33 +22,33 @@ const cards = [
   {
     type: "card",
     img: "./table.svg",
-    title: "Easy Appointment Booking",
-    text: "Find doctors and book visits within seconds. Browse by specialty, location, and availability.",
+    title: "Objective 9-Band Scoring",
+    text: "Receive accurate, skill-based scoring aligned with IELTS criteria to understand your real readiness level",
   },
   { type: "img", img: "./phonnne.png" },
   {
     type: "card",
     img: "./user.svg",
-    title: "Health Tracker",
-    text: "Log vitals, medication, and sleep with smart reminders that keep you on track.",
+    title: "Deep Skill Analytics",
+    text: "Get detailed breakdowns for each section and discover which areas need the most attention to boost your score.",
   },
   {
     type: "card",
     img: "./camera.svg",
-    title: "Instant Telehealth",
-    text: "Video consult with certified doctors anytime, anywhere. No waiting rooms required.",
+    title: "Personalized Preparation Plan",
+    text: "LingvAI builds a tailored improvement strategy based on your weaknesses, strengths, and performance trends.",
   },
   {
     type: "card",
     img: "./list.svg",
-    title: "Digital Health Records",
-    text: "Access and share your prescriptions, lab results, and medical history securely.",
+    title: "Speaking & Writing Feedback",
+    text: "Receive expert-style feedback on fluency, grammar, coherence, vocabulary, and structure — with clear improvement tips.",
   },
   {
     type: "card",
     img: "./security.svg",
-    title: "Secure & Encrypted",
-    text: "HIPAA-compliant data security with end-to- end encryption and privacy controls.",
+    title: "Track Measurable Progress",
+    text: "Monitor score improvements over time and see exactly how your skills evolve as you prepare for the exam.",
   },
 ];
 
@@ -72,7 +72,7 @@ const Explore = () => {
   }, []);
 
   return (
-    <div className="expo">
+    <div className="expo fade-up">
       <div className="container">
         <div className="expo__wrapper">
           <div className="expo__content">
@@ -90,7 +90,7 @@ const Explore = () => {
                   <img src={c.img} alt="" />
                 </div>
               ) : (
-                <div className="expo__card" key={i}>
+                <div className="expo__card fade-up" key={i}>
                   <img src={c.img} alt={c.title} />
                   <h3>{c.title}</h3>
                   <p>{c.text}</p>
