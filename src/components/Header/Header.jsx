@@ -17,7 +17,7 @@ const Header = () => {
     <div className="header">
       <div className="container">
         <div className="header__wrapper">
-          <img src="./logo.png" alt="logo" className="header__logo" />
+          <img src="./logo-favicon.svg" alt="logo" className="header__logo" />
 
           {/* NAV DESKTOP */}
           <div className="header__nav">
