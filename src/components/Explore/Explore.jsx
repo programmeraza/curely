@@ -25,7 +25,7 @@ const cards = [
     title: "Objective 9-Band Scoring",
     text: "Receive accurate, skill-based scoring aligned with IELTS criteria to understand your real readiness level",
   },
-  { type: "img", img: "./phonnne.png" },
+  { type: "img", img: "./2.png" },
   {
     type: "card",
     img: "./user.svg",

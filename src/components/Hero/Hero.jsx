@@ -24,7 +24,7 @@ const Hero = () => {
               </div>
             </div>
 
-            <img src="./phone.png" alt="" />
+            <img src="./1.png" alt="" />
           </div>
         </div>
       </div>
