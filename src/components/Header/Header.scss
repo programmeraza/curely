@@ -4,19 +4,24 @@
     width: 100%;
     z-index: 10;
     padding: 0 16px;
+    transition: background-color 0.5s ease;
 
     &__wrapper {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
-        background-color: #fff;
         padding: 8px 20px;
         border-radius: 32px;
+        background-color: transparent;
+        transition: background-color 0.5s ease, box-shadow 0.5s ease;
+        @media (max-width: 760px) {
+            justify-content: space-between;
+        }
     }
 
     &__logo {
-        width: 85px;
-        height: 35px;
+        width: 105px;
+        height: 45px;
         object-fit: cover;
     }
 
@@ -247,4 +252,11 @@
             display: flex;
         }
     }
+}
+
+.header.scrolled {
+  .header__wrapper {
+    background-color: #fff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  }
 }

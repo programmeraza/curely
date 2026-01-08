@@ -18,7 +18,7 @@ const Code = () => {
               <Link className="code__btn">
                 <img src="./app-store.png" alt="" />
               </Link>
-              <Link className="code__btn">
+              <Link id="about" className="code__btn">
                 <img src="./play-market.png" alt="" />
               </Link>
             </div>

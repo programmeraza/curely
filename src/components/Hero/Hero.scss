@@ -1,11 +1,12 @@
 .hero {
     padding: 24px;
+    scroll-behavior: smooth;
 
     &__container {
-        width: 72%;
+        width: 90%;
         margin: 0 auto;
 
-        @media (max-width: 1763px) {
+        @media (max-width: 768px) {
             width: 100%;
         }
     }

@@ -1,6 +1,7 @@
 .footer {
     background-color: #151419;
     padding: 80px 0;
+    scroll-behavior: smooth;
 
     &__wrapper {
         display: flex;
@@ -28,6 +29,7 @@
         align-items: start;
         gap: 16px;
         width: 255px;
+
         p {
             color: #fff;
             font-size: 16px;
@@ -35,8 +37,8 @@
         }
 
         img {
-            width: 80px;
-            height: 35px;
+            width: 105px;
+            height: 45px;
             object-fit: cover;
         }
     }
@@ -45,6 +47,7 @@
         display: flex;
         flex-direction: column;
         gap: 16px;
+
         h3 {
             font-size: 20px;
             color: #fff;
@@ -56,6 +59,7 @@
         justify-content: start;
         align-items: center;
         gap: 16px;
+
         input {
             padding: 12px 20px;
             border-radius: 32px;
@@ -64,10 +68,12 @@
             background-color: #25252A;
             color: #fff;
             width: 250px;
+
             &::placeholder {
                 color: #888888;
             }
         }
+
         @media (max-width: 425px) {
             flex-direction: column;
             align-items: start;
@@ -138,6 +144,7 @@
         flex-direction: column;
         align-items: start;
         gap: 33px;
+
         p {
             font-size: 16px;
             color: #fff;
@@ -165,12 +172,14 @@
         display: flex;
         flex-direction: column;
         gap: 16px;
+
         h3 {
             font-size: 18px;
             font-weight: 300;
             color: #fff;
             margin-bottom: 8px;
         }
+
         a {
             font-size: 16px;
             font-weight: 200;
@@ -183,10 +192,12 @@
         }
     }
 
-    &__location, &__email {
+    &__location,
+    &__email {
         display: flex;
         align-items: center;
         gap: 5px;
+
         a {
             font-size: 16px;
             color: #fff;

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Header.scss";
 import { useLocation } from "react-router-dom";
 
@@ -6,11 +6,25 @@ const Header = () => {
   const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const header = document.querySelector(".header");
+      if (window.scrollY > 20) {
+        header.classList.add("scrolled");
+      } else {
+        header.classList.remove("scrolled");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   const navItems = [
-    { path: "/", label: "Home" },
-    { path: "/about", label: "About" },
-    { path: "/features", label: "Features" },
-    { path: "/contact", label: "Contact" },
+    { path: "#home", label: "Home" },
+    { path: "#about", label: "About" },
+    { path: "#features", label: "Features" },
+    { path: "#contact", label: "Contact" },
   ];
 
   return (
@@ -25,7 +39,7 @@ const Header = () => {
               <a
                 key={item.path}
                 href={item.path}
-                className={location.pathname === item.path ? "active" : ""}
+                className={location.hash === item.path ? "active" : ""}
               >
                 {item.label}
               </a>

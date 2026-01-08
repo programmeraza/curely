@@ -72,7 +72,7 @@ const Explore = () => {
   }, []);
 
   return (
-    <div className="expo fade-up">
+    <div id="features" className="expo fade-up">
       <div className="container">
         <div className="expo__wrapper">
           <div className="expo__content">
