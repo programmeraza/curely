@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="footer__wrapper">
             <div className="footer__top">
               <div className="footer__logo-flex">
-                <img src="./logo-favicon.svg" alt="" />
+                <img src="./favicon.svg" alt="" />
                 <p>
                   Your personal health companion for a healthier, organized
                   life.

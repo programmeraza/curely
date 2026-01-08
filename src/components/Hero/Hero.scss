@@ -2,8 +2,9 @@
     padding: 24px;
 
     &__container {
-        width: 80%;
+        width: 72%;
         margin: 0 auto;
+
         @media (max-width: 1763px) {
             width: 100%;
         }
@@ -18,10 +19,14 @@
         border-radius: 24px;
         background: RGBA(211, 199, 243, 0.6);
         background: linear-gradient(90deg, rgba(211, 199, 243, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(246, 222, 199, 1) 100%);
-        img {
-            width: 100%;
-            max-width: 1055px;   
+        @media (max-width: 768px) {
+            gap: 40px;
         }
+    }
+
+    &__img {
+        width: 100%;
+        max-width: 800px;
     }
 
     &__content {
@@ -49,23 +54,25 @@
         align-items: center;
         gap: 16px;
         margin-top: 24px;
+
         @media (max-width: 768px) {
             flex-direction: column;
         }
     }
-    
+
     &__btn {
         width: max-content;
         padding: 8px 32px;
         background-color: #000;
         border-radius: 32px;
+
         img {
             width: 100%;
             max-width: 137px;
         }
 
         @media (max-width: 768px) {
-            padding: 6px 16px;
+            padding: 4px 12px;
         }
     }
 

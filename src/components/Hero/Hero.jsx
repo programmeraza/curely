@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.scss";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -15,16 +16,16 @@ const Hero = () => {
                 Listening, Speaking and Writing skills.
               </p>
               <div className="hero__flex">
-                <div className="hero__btn">
+                <Link className="hero__btn">
                   <img src="./app-store.png" alt="" />
-                </div>
-                <div className="hero__btn">
+                </Link>
+                <Link className="hero__btn">
                   <img src="./play-market.png" alt="" />
-                </div>
+                </Link>
               </div>
             </div>
 
-            <img src="./1.png" alt="" />
+            <img className="hero__img" src="./1.png" alt="" />
           </div>
         </div>
       </div>

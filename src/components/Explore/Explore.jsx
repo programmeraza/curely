@@ -21,32 +21,32 @@ const ArrowIcon = () => (
 const cards = [
   {
     type: "card",
-    img: "./table.svg",
+    img: "./1.svg",
     title: "Objective 9-Band Scoring",
     text: "Receive accurate, skill-based scoring aligned with IELTS criteria to understand your real readiness level",
   },
   { type: "img", img: "./2.png" },
   {
     type: "card",
-    img: "./user.svg",
+    img: "./2.svg",
     title: "Deep Skill Analytics",
     text: "Get detailed breakdowns for each section and discover which areas need the most attention to boost your score.",
   },
   {
     type: "card",
-    img: "./camera.svg",
+    img: "./3.svg",
     title: "Personalized Preparation Plan",
     text: "LingvAI builds a tailored improvement strategy based on your weaknesses, strengths, and performance trends.",
   },
   {
     type: "card",
-    img: "./list.svg",
+    img: "./4.svg",
     title: "Speaking & Writing Feedback",
     text: "Receive expert-style feedback on fluency, grammar, coherence, vocabulary, and structure — with clear improvement tips.",
   },
   {
     type: "card",
-    img: "./security.svg",
+    img: "./5.svg",
     title: "Track Measurable Progress",
     text: "Monitor score improvements over time and see exactly how your skills evolve as you prepare for the exam.",
   },
@@ -76,7 +76,7 @@ const Explore = () => {
       <div className="container">
         <div className="expo__wrapper">
           <div className="expo__content">
-            <h1>Every thing You Need. Nothing You Don’t.</h1>
+            <h1>Train. Score. Improve. From Practice to Performance.</h1>
             <p>
               Comprehensive healthcare management designed with simplicity and
               security in mind.
@@ -87,11 +87,13 @@ const Explore = () => {
             {cards.map((c, i) =>
               c.type === "img" ? (
                 <div className="expo__card-img" key={i}>
-                  <img src={c.img} alt="" />
+                  <img className="expo__img" src={c.img} alt="" />
                 </div>
               ) : (
                 <div className="expo__card fade-up" key={i}>
-                  <img src={c.img} alt={c.title} />
+                  <div className="expo__icon">
+                    <img src={c.img} alt={c.title} />
+                  </div>
                   <h3>{c.title}</h3>
                   <p>{c.text}</p>
                   <Link className="expo__link" to="#">

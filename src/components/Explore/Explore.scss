@@ -16,7 +16,7 @@
         text-align: center;
         gap: 16px;
         width: 100%;
-        max-width: 571px;
+        max-width: 610px;
 
         h1 {
             font-size: clamp(2.125rem, 1.833rem + 1.46vw, 3rem);
@@ -32,10 +32,11 @@
     &__cards {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(311px, 1fr));
-        align-items: center;
+        align-items: start;
         gap: 24px;
         width: 100%;
-        @media (max-width: 768px) { 
+
+        @media (max-width: 768px) {
             grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
         }
     }
@@ -46,15 +47,11 @@
         align-items: start;
         gap: 16px;
         padding: 32px;
+        background-color: #F5F7FB;
         border-radius: 16px;
         opacity: 0;
         transform: translateY(40px);
         transition: opacity 1s ease, transform 0.6s ease;
-
-        img {
-            width: 100%;
-            max-width: 48px;
-        }
 
         h3 {
             font-size: 24px;
@@ -68,8 +65,20 @@
             margin-bottom: 8px;
         }
 
-         @media (max-width: 768px) {
+        @media (max-width: 768px) {
             padding: 16px;
+        }
+    }
+
+    &__icon {
+        width: 60px;
+        height: 60px;
+        background: #7C69ED;
+        background: linear-gradient(93deg, rgba(124, 105, 237, 1) 0%, rgba(209, 147, 236, 1) 100%);
+        border-radius: 50%;
+        img {
+            width: 100%;
+            max-width: 60px;
         }
     }
 
@@ -85,8 +94,7 @@
         transition: opacity 1s ease, transform 0.6s ease;
 
         img {
-            width: 600px;
-            
+            width: 240px;
         }
 
         @media (max-width: 768px) {
@@ -148,4 +156,4 @@
 .expo__card-img.show {
     opacity: 1;
     transform: translateY(0);
-}   
+}

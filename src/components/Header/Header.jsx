@@ -17,7 +17,7 @@ const Header = () => {
     <div className="header">
       <div className="container">
         <div className="header__wrapper">
-          <img src="./logo-favicon.svg" alt="logo" className="header__logo" />
+          <img src="./favicon.svg" alt="logo" className="header__logo" />
 
           {/* NAV DESKTOP */}
           <div className="header__nav">
@@ -67,6 +67,17 @@ const Header = () => {
                   </a>
                 ))}
               </nav>
+              <button className="header__btn2">
+                Download App
+                <div className="header__svg2">
+                  <svg width="12" height="9" viewBox="0 0 12 9">
+                    <path
+                      d="M10.6667 4.47133L11.138 4L11.6094 4.47133L11.138 4.94267L10.6667 4.47133ZM0.666708 5.138C0.489898 5.138 0.320328 5.06776 0.195303 4.94274C0.0702791 4.81771 4.19617e-05 4.64814 4.19617e-05 4.47133C4.19617e-05 4.29452 0.0702791 4.12495 0.195303 3.99993C0.320328 3.8749 0.489898 3.80467 0.666708 3.80467V5.138ZM7.13804 0L11.138 4L10.1954 4.94267L6.19537 0.942666L7.13804 0ZM11.138 4.94267L7.13804 8.94267L6.19537 8L10.1954 4L11.138 4.94267ZM10.6667 5.138H0.666708V3.80467H10.6667V5.138Z"
+                      fill="#151419"
+                    />
+                  </svg>
+                </div>
+              </button>
             </div>
           </div>
         </div>

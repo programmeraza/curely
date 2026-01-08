@@ -1,5 +1,6 @@
 import React from "react";
 import "./Code.scss";
+import { Link } from "react-router-dom";
 
 const Code = () => {
   return (
@@ -14,12 +15,12 @@ const Code = () => {
             </p>
             <img className="code__img" src="./qr-code.png" alt="" />
             <div className="code__flex">
-              <div className="code__btn">
+              <Link className="code__btn">
                 <img src="./app-store.png" alt="" />
-              </div>
-              <div className="code__btn">
+              </Link>
+              <Link className="code__btn">
                 <img src="./play-market.png" alt="" />
-              </div>
+              </Link>
             </div>
           </div>
         </div>
