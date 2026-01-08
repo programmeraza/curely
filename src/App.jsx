@@ -4,6 +4,7 @@ import Explore from './components/Explore/Explore'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
+import Review from './components/Review/Review'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Hero/>
       <Explore/>
       <Code/>
+      <Review/>
       <Footer/>
     </>
   )

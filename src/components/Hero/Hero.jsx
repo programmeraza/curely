@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="hero">
         <div className="hero__container">
           <div className="hero__wrapper">
-            <div className="hero__content slide-in-bottom">
+            <div className="hero__content">
               <p className="hero__text">Best Medical Service</p>
               <h1>Manage Your Health Anytime, Anywhere.</h1>
               <p className="hero__desc">

@@ -3,7 +3,6 @@ import "./Explore.scss";
 import { Link } from "react-router-dom";
 
 const Explore = () => {
-
   useEffect(() => {
     const cards = document.querySelectorAll(".expo__card, .expo__card-img");
 
@@ -11,12 +10,7 @@ const Explore = () => {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            const index = [...cards].indexOf(entry.target);
-
-            setTimeout(() => {
-              entry.target.classList.add("show");
-            }, index * 150);
-
+            entry.target.classList.add("show");
             observer.unobserve(entry.target);
           }
         });
