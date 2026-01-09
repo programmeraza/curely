@@ -76,7 +76,7 @@ const Explore = () => {
       <div className="container">
         <div className="expo__wrapper">
           <div className="expo__content">
-            <h1>Train. Score. Improve. From Practice to Performance.</h1>
+            <h1>Train. Score. Improve. <br /> From Practice to Performance.</h1>
             <p>
               Comprehensive healthcare management designed with simplicity and
               security in mind.
