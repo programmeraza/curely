@@ -9,7 +9,6 @@ const Hero = () => {
         <div className="hero__container">
           <div className="hero__wrapper">
             <div className="hero__content">
-              <p className="hero__text">Best Medical Service</p>
               <h1>LingvAI — IELTS Test Simulator in Your Hands.</h1>
               <p className="hero__desc">
                 The only solution you need to accurately test Reading,

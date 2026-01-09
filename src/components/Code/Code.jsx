@@ -8,11 +8,8 @@ const Code = () => {
       <div className="code">
         <div className="container">
           <div className="code__wrapper">
-            <h1>Download Curely & Take Control of Your Health</h1>
-            <p>
-              Download on App Store | Get it on Google Play Logos of App Store &
-              Play Store with QR code
-            </p>
+            <h1>Download LingvAl & Turn Weaknesses into Higher Scores</h1>
+            <p>Download on App Store | Google Play</p>
             <img className="code__img" src="./qr-code.png" alt="" />
             <div className="code__flex">
               <Link className="code__btn">

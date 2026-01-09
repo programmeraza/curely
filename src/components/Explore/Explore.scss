@@ -51,6 +51,7 @@
         background-color: #F5F7FB;
         border-radius: 16px;
         opacity: 0;
+        height: 300px;
         transform: translateY(40px);
         transition: opacity 1s ease, transform 0.6s ease;
 
@@ -77,6 +78,7 @@
         background: #7C69ED;
         background: linear-gradient(93deg, rgba(124, 105, 237, 1) 0%, rgba(209, 147, 236, 1) 100%);
         border-radius: 50%;
+
         img {
             width: 100%;
             max-width: 60px;
@@ -157,4 +159,22 @@
 .expo__card-img.show {
     opacity: 1;
     transform: translateY(0);
+}
+
+
+.expo__cards> :nth-child(5) {
+    margin-top: 65px;
+
+    @media (max-width: 1024px) {
+        margin-top: 0;
+    }
+}
+
+.expo__cards> :nth-child(4),
+.expo__cards> :nth-child(6) {
+    transform: translateY(-54px);
+
+    @media (max-width: 1024px) {
+        transform: translateY(0);
+    }
 }

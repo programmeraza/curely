@@ -10,10 +10,7 @@ const Footer = () => {
             <div className="footer__top">
               <div className="footer__logo-flex">
                 <img src="./favicon.svg" alt="" />
-                <p>
-                  Your personal health companion for a healthier, organized
-                  life.
-                </p>
+                <p>Your Al-powered IELTS simulator for measurable progress.</p>
               </div>
               <div className="footer__email-flex">
                 <h3>Stay Updated</h3>
@@ -40,8 +37,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="footer__line">
-            </div>
+            <div className="footer__line"></div>
 
             <div className="footer__bottom">
               <div className="footer__icon-flex">
@@ -60,14 +56,9 @@ const Footer = () => {
                 <ul className="footer__ul">
                   <h3>Company</h3>
                   <a href="#">About</a>
-                  <a href="#">Blog</a>
-                  <a href="#">Press</a>
                 </ul>
                 <ul className="footer__ul">
                   <h3>Help</h3>
-                  <a href="#">Support</a>
-                  <a href="#">Privacy Policy</a>
-                  <a href="#">Terms of Service</a>
                   <a href="#">FAQ</a>
                 </ul>
                 <ul className="footer__ul">
@@ -86,7 +77,7 @@ const Footer = () => {
                         fill-opacity="0.8"
                       />
                     </svg>
-                    <a href="#">help@curely.app</a>
+                    <a href="info@lingvai.com">info@lingvai.com</a>
                   </div>
                   <div className="footer__location">
                     <svg
@@ -102,7 +93,7 @@ const Footer = () => {
                         fill-opacity="0.8"
                       />
                     </svg>
-                    <a href="#">Dhaka, Bangladesh</a>
+                    <a href="#">Tashkent, Uzbekistan.</a>
                   </div>
                 </ul>
               </div>
