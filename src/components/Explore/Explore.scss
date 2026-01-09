@@ -163,7 +163,7 @@
 
 
 .expo__cards> :nth-child(5) {
-    margin-top: 65px;
+    margin-top: 55px;
 
     @media (max-width: 1024px) {
         margin-top: 0;
@@ -172,7 +172,7 @@
 
 .expo__cards> :nth-child(4),
 .expo__cards> :nth-child(6) {
-    transform: translateY(-54px);
+    transform: translateY(-75px);
 
     @media (max-width: 1024px) {
         transform: translateY(0);
