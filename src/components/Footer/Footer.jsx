@@ -48,8 +48,9 @@ const Footer = () => {
                   <img src="./in.svg" alt="" />
                 </div>
                 <p>
-                  © 2025 Curely Inc. All rights reserved. Designed by Jabel -
-                  Trexa Lab
+                  © 2026 LingvAl. All rights reserved.
+                  Developed by ISLMV IT-Solutions
+                  Group.
                 </p>
               </div>
               <div className="footer__nav-flex">

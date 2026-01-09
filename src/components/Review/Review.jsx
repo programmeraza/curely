@@ -4,39 +4,39 @@ import "./Review.scss";
 const reviews = [
   {
     img: "./rafiq.png",
-    name: "Rafiq Ahmed",
-    location: "Chattogram",
-    text: "Perfect for managing my parents' medications and appointments from one place.",
+    name: "Azizbek Karimov",
+    location: "Tashkent",
+    text: "LingvAI finally showed my real band score for Speaking. The feedback was super clear and helped me fix my weak spots.",
   },
   {
     img: "./sarah.png",
-    name: "Sarah Khan",
-    location: "Sylhet",
-    text: "The telehealth feature saved me so much time. Professional doctors, great service!",
+    name: "Amina Askarova",
+    location: "Samarkand",
+    text: "I loved the Writing evaluation. It explained what I was doing wrong with coherence and vocabulary. Very helpful!",
   },
   {
     img: "./tanvir.png",
-    name: "Tanvir",
-    location: "Sylhet",
-    text: "I booked a video consultation during lunch break — no traffic, no hassle!",
+    name: "Dilshod Rakhimov",
+    location: "Samarkand",
+    text: "The simulation felt like the actual IELTS exam. I felt much more confident before my real test.",
   },
   {
     img: "./shabnam.png",
-    name: "Shabnam",
-    location: "Rajshahi",
-    text: "Finally, an app that reminds me about my medicine on time. Super helpful! made it simple and fast!",
+    name: "Irina Petrova",
+    location: "Tashkent",
+    text: "Scoring is honest and objective. No sugarcoating. That alone saved me time and made my prep more efficient.",
   },
   {
     img: "./mahmud.png",
-    name: "Mahmud",
-    location: "Barisal",
-    text: "The chat with doctor feature saved me an unnecessary clinic visit.",
+    name: "Kamilla Nurmatova",
+    location: "Kazan",
+    text: "I always struggled with Speaking timing. LingvAI helped me practice the structure and answer faster with confidence.",
   },
   {
     img: "./jannatul.png",
-    name: "Jannatul Ferdous",
-    location: "Dhaka",
-    text: "I never thought seeing a doctor could be this easy. Curely made it simple and fast!",
+    name: "Nurlan Kabylov",
+    location: "Bishkek",
+    text: "After two sessions I finally understood what was stopping me from getting Band 7. Worth every minute.",
   },
 ];
 
@@ -68,7 +68,7 @@ const Review = () => {
           <div className="review__wrapper">
             <div className="review__content">
               <h1>Real People. Real Results.</h1>
-              <p>Thousands trust Curely for their healthcare needs</p>
+              <p>Thousands of learners. One goal: Higher score.</p>
             </div>
 
             <div className="review__cards">

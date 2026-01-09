@@ -8,7 +8,7 @@ const Code = () => {
       <div className="code">
         <div className="container">
           <div className="code__wrapper">
-            <h1>Download LingvAl & Turn Weaknesses into Higher Scores</h1>
+            <h1>Download LingvAI & Turn Weaknesses into Higher Scores</h1>
             <p>Download on App Store | Google Play</p>
             <img className="code__img" src="./qr-code.png" alt="" />
             <div className="code__flex">
